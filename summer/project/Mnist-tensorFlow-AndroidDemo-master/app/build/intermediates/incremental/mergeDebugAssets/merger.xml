@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/src/main/assets"><file name="mnist.pb" path="/Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/src/main/assets/mnist.pb"/></source><source path="/Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/src/debug/assets"/></dataSet></merger>

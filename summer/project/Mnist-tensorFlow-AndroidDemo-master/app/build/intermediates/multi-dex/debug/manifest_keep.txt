@@ -1,3 +1,0 @@
-# Referenced at /Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15
--keep class android.support.multidex.MultiDexApplication { <init>(...); }
-
