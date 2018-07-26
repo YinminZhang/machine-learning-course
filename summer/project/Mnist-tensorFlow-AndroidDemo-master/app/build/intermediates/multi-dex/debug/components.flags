@@ -1,0 +1,59 @@
+-injars /Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/libs/libandroid_tensorflow_inference_java.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/538e0caae5018bda569480552484c80d/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c1caf4a610ec4ad084c5c42151bdd4b8/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/94873274eb946ec13d0833900fe04ad2/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/c4e0a61ffc7b67af17c2e31ade35d730/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d3b489f952a8f1be711428b33955d3d5/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/bf63ee2f163ad4c05c50d0edf19b25b1/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a83cde6cad75b938a9d6e37ddcb4963b/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/64d15143b56aac227e9e913f19c8d3a1/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/adc988375aae830f6900356ad2ce3a4d/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/77bcee0a10984a51d0fc3814eff6320a/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e5943f0ffda483c6f255adf231cc79f4/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar(**.class)
+-injars /Users/nanohana/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/73f3c7bc22df2a6972f8135c8d3a3bbc/jars/classes.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar(**.class)
+-injars /Users/nanohana/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar(**.class)
+-injars /Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/build/intermediates/classes/debug(**.class)
+-outjars /Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/nanohana/Library/Android/sdk/build-tools/27.0.3/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/build/intermediates/multi-dex/debug/components.flags
+
+
+# Referenced at /Users/nanohana/Downloads/Mnist-tensorFlow-AndroidDemo-master/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}
